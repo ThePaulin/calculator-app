@@ -212,7 +212,7 @@ class Calculator {
             integerDisplay = ''
         }else{
             integerDisplay = integerDigits.toLocaleString('en',{
-                maximumFractionDigits: 0})
+                maximumFractionDigits: 4})
         }
         if(decimalDigits !=null){
             return `${integerDisplay}.${decimalDigits}`
